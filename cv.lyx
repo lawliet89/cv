@@ -167,7 +167,6 @@ Chua
 \end_layout
 
 \begin_layout Title
-Curriculum Vitae
 \begin_inset Note Note
 status collapsed
 
@@ -364,7 +363,7 @@ Experience
 status open
 
 \begin_layout Plain Layout
-2015--
+2014--
 \begin_inset Newline newline
 \end_inset
 
@@ -378,48 +377,12 @@ current
 status open
 
 \begin_layout Plain Layout
-Maintainer of Open Source projects
+Open Source Contributions
 \end_layout
 
 \end_inset
 
-Rust libraries for JSON Web Token, authentication server, and Continuous
- Integration tools.
-\begin_inset Newline newline
-\end_inset
-
-Ansible playbooks for deploying applications using Docker
-\begin_inset Newline newline
-\end_inset
-
-
-\end_layout
-
-\begin_layout Entry
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-2015--
-\begin_inset Newline newline
-\end_inset
-
-current
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-Contributer to Docker Compose, and Rust libraries
-\end_layout
-
-\end_inset
-
-
+Please see below.
 \end_layout
 
 \begin_layout Entry
@@ -638,18 +601,11 @@ Native
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset Newpage newpage
-\end_inset
-
-
-\end_layout
-
 \begin_layout Section
 Computer skills
 \end_layout
 
-\begin_layout DoubleItem
+\begin_layout Item
 \begin_inset Argument 1
 status open
 
@@ -659,30 +615,10 @@ OS
 
 \end_inset
 
-
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-Linux, Unix, Windows
+Linux, Windows
 \end_layout
 
-\end_inset
-
-
-\begin_inset Argument 3
-status open
-
-\begin_layout Plain Layout
-Administration
-\end_layout
-
-\end_inset
-
-Apache, Mailman
-\end_layout
-
-\begin_layout DoubleItem
+\begin_layout Item
 \begin_inset Argument 1
 status open
 
@@ -692,101 +628,7 @@ Programming
 
 \end_inset
 
-
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-Rust, C#, C++
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 3
-status open
-
-\begin_layout Plain Layout
-Scripting
-\end_layout
-
-\end_inset
-
-Shell, Ruby, Python, JavaScript
-\end_layout
-
-\begin_layout DoubleItem
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Scientific
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-Matlab, AutoCAD, Abaqus
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 3
-status open
-
-\begin_layout Plain Layout
-Typography
-\end_layout
-
-\end_inset
-
-LaTeX, ConTeXt, Scribus, QuarkXPress
-\end_layout
-
-\begin_layout DoubleItem
-\begin_inset Argument 1
-status open
-
-\begin_layout Plain Layout
-Web
-\begin_inset space ~
-\end_inset
-
-design
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 2
-status open
-
-\begin_layout Plain Layout
-HTML, CSS, AJAX
-\end_layout
-
-\end_inset
-
-
-\begin_inset Argument 3
-status open
-
-\begin_layout Plain Layout
-Database
-\end_layout
-
-\end_inset
-
-MySQL, PostgreSQL
-\end_layout
-
-\begin_layout Section
-Interests
+Rust, C#, C++, Python, Ruby, JavaScript, Shell
 \end_layout
 
 \begin_layout Item
@@ -794,21 +636,130 @@ Interests
 status open
 
 \begin_layout Plain Layout
-Adventure
-\begin_inset Newline newline
-\end_inset
-
-sports
+DevOps tools
 \end_layout
 
 \end_inset
 
-I like practicing adventure sports like skiing, rock climbing and scuba
- diving, and have been a boy scout for five years.
+Ansible, Docker, Vagrant, Terraform, Kubernetes
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Methodology
+\end_layout
+
+\end_inset
+
+Agile, Scrum, DSDM, Continuous Integration/Deployment
+\begin_inset Note Note
+status collapsed
+
+\begin_layout DoubleItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+DevOps tools
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout DoubleItem
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\end_inset
+
+
 \end_layout
 
 \begin_layout Standard
-\begin_inset VSpace 0.3cm
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Section
+Open Source Projects
+\end_layout
+
+\begin_layout Item
+This is a partial list of open source projects.
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Rust
+\end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "JSON Web Tokens (JWT) library"
+target "https://github.com/lawliet89/biscuit"
+
 \end_inset
 
 
@@ -819,151 +770,125 @@ I like practicing adventure sports like skiing, rock climbing and scuba
 status open
 
 \begin_layout Plain Layout
-Travelling
+Rust
 \end_layout
 
 \end_inset
 
-I love travelling around the world.
-\end_layout
 
-\begin_layout Section
-Section with a list
-\end_layout
-
-\begin_layout ListItem
-Single item.
-\end_layout
-
-\begin_layout ListItem
-Another single item.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-begin{itemize}
-\backslash
-item 
-\end_layout
-
-\end_inset
-
-Sub-item.
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-end{itemize}
-\end_layout
+\begin_inset CommandInset href
+LatexCommand href
+name "Tool for assisting in Continuous Integration for Bitbucket"
+target "https://github.com/lawliet89/pr_demon"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-listitemsymbol}{-~} 
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
-status open
-
-\begin_layout Plain Layout
-optional, changes the symbol for lists
-\end_layout
-
-\end_inset
-
-
-\end_layout
-
-\begin_layout DoubleListItem
+\begin_layout Item
 \begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-Item 1
+Rust
 \end_layout
 
 \end_inset
 
-Item 3
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Automated tool for test merging topic branches for Git"
+target "https://github.com/lawliet89/fusionner"
+
+\end_inset
+
+
 \end_layout
 
-\begin_layout DoubleListItem
+\begin_layout Item
 \begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-Item 2
+Rust
 \end_layout
 
 \end_inset
 
-Item 4, see 
-\begin_inset CommandInset citation
-LatexCommand cite
-key "Jobs95"
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "CORS Library for the Rocket.rs framework"
+target "https://github.com/lawliet89/rocket_cors"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Standard
-\begin_inset ERT
-status collapsed
-
-\begin_layout Plain Layout
-
-
-\backslash
-renewcommand{
-\backslash
-listitemsymbol}{
-\backslash
-labelitemi~} 
-\end_layout
-
-\end_inset
-
-
-\begin_inset Note Note
+\begin_layout Item
+\begin_inset Argument 1
 status open
 
 \begin_layout Plain Layout
-optional, resets the symbol for lists to the default one
+C++
 \end_layout
+
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "LLVM Obfuscator: Implementation of Obfuscation techniques with LLVM compiler."
+target "https://github.com/lawliet89/LLVM-Obfuscator"
 
 \end_inset
 
 
 \end_layout
 
-\begin_layout Subsection
-subsection
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Ruby
 \end_layout
 
-\begin_layout ListItem
-subsection item
+\end_inset
+
+
+\begin_inset CommandInset href
+LatexCommand href
+name "Library for Rack applications to intergrate with CorpPass, a SAML based identity provider."
+target "https://github.com/GovTechSG/libcorppass"
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Ansible
+\end_layout
+
+\end_inset
+
+ 
+\begin_inset CommandInset href
+LatexCommand href
+name "Ansible role for deploying Docker applications with Docker Compose"
+target "https://github.com/lawliet89/docker-compose-ansible"
+
+\end_inset
+
+
 \end_layout
 
 \end_body
