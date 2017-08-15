@@ -757,7 +757,7 @@ Rust
 
 \begin_inset CommandInset href
 LatexCommand href
-name "JSON Web Tokens (JWT) library"
+name "JOSE library (https://git.io/v7dIz)"
 target "https://github.com/lawliet89/biscuit"
 
 \end_inset
@@ -778,7 +778,7 @@ Rust
 
 \begin_inset CommandInset href
 LatexCommand href
-name "Tool for assisting in Continuous Integration for Bitbucket"
+name "Continuous Integration tool for Bitbucket (https://git.io/v7dI2)"
 target "https://github.com/lawliet89/pr_demon"
 
 \end_inset
@@ -799,7 +799,7 @@ Rust
 
 \begin_inset CommandInset href
 LatexCommand href
-name "Automated tool for test merging topic branches for Git"
+name "Automated tool for test merging topic branches for Git (https://git.io/v7dIV)"
 target "https://github.com/lawliet89/fusionner"
 
 \end_inset
@@ -820,7 +820,7 @@ Rust
  
 \begin_inset CommandInset href
 LatexCommand href
-name "CORS Library for the Rocket.rs framework"
+name "CORS Library for the Rocket.rs framework (https://git.io/v7dIw)"
 target "https://github.com/lawliet89/rocket_cors"
 
 \end_inset
@@ -841,7 +841,7 @@ C++
 
 \begin_inset CommandInset href
 LatexCommand href
-name "LLVM Obfuscator: Implementation of Obfuscation techniques with LLVM compiler."
+name "LLVM Obfuscator: Implementation of Obfuscation techniques with LLVM compiler (https://git.io/v7dIr)"
 target "https://github.com/lawliet89/LLVM-Obfuscator"
 
 \end_inset
@@ -862,7 +862,7 @@ Ruby
 
 \begin_inset CommandInset href
 LatexCommand href
-name "Library for Rack applications to intergrate with CorpPass, a SAML based identity provider."
+name "Library for Rack applications to intergrate with CorpPass, a SAML based identity provider (https://git.io/v7dIo)"
 target "https://github.com/GovTechSG/libcorppass"
 
 \end_inset
@@ -883,7 +883,7 @@ Ansible
  
 \begin_inset CommandInset href
 LatexCommand href
-name "Ansible role for deploying Docker applications with Docker Compose"
+name "Ansible role for deploying Docker applications with Docker Compose (https://git.io/v7dIK)"
 target "https://github.com/lawliet89/docker-compose-ansible"
 
 \end_inset
