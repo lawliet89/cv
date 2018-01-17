@@ -1,7 +1,9 @@
-#LyX 2.1 created this file. For more info see http://www.lyx.org/
-\lyxformat 474
+#LyX 2.2 created this file. For more info see http://www.lyx.org/
+\lyxformat 508
 \begin_document
 \begin_header
+\save_transient_properties true
+\origin unavailable
 \textclass moderncv
 \begin_preamble
 %\renewcommand{\familydefault}{\sfdefault}    % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
@@ -18,16 +20,16 @@
 \language_package default
 \inputencoding auto
 \fontencoding global
-\font_roman default
-\font_sans default
-\font_typewriter default
-\font_math auto
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
 \font_default_family default
 \use_non_tex_fonts false
 \font_sc false
 \font_osf false
-\font_sf_scale 100
-\font_tt_scale 100
+\font_sf_scale 100 100
+\font_tt_scale 100 100
 \graphics default
 \default_output_format default
 \output_sync 0
@@ -85,7 +87,8 @@ status collapsed
 \begin_layout Plain Layout
 The moderncv class offers lots of customization possibilities; some are
  explained in the preamble of this document; for more information look at
- the documentation of the LaTeX-package 
+ the documentation of the \SpecialChar LaTeX
+-package 
 \series bold
 moderncv
 \series default
@@ -158,11 +161,16 @@ optional, controls how the PDF will be shown; use either 'UseNone' (only
 
 \end_layout
 
-\begin_layout FirstName
+\begin_layout Name
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
 Yong Wen
 \end_layout
 
-\begin_layout FamilyName
+\end_inset
+
 Chua
 \end_layout
 
@@ -306,7 +314,7 @@ Education
 status open
 
 \begin_layout Plain Layout
-2010--2014
+2010–2014
 \end_layout
 
 \end_inset
@@ -363,7 +371,7 @@ Experience
 status open
 
 \begin_layout Plain Layout
-2014--
+2014–
 \begin_inset Newline newline
 \end_inset
 
@@ -390,7 +398,7 @@ Please see below.
 status open
 
 \begin_layout Plain Layout
-2015--
+2015–
 \begin_inset Newline newline
 \end_inset
 
@@ -429,17 +437,56 @@ Singapore
 
 \end_inset
 
-Worked on the 
-\begin_inset CommandInset href
-LatexCommand href
-name "Business Grants Portal"
-target "https://www.businessgrants.gov.sg/"
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Itemize
+Dockerized applications and set up and Docker based continuous integration
+ and delivery pipeline using TeamCity for several applications, including
+ the Business Grant Portal.
+ This allowed easy replication of similar test and production environment
+ for developers to work with.
+ 
+\end_layout
+
+\begin_layout Itemize
+Fully automate the deployment of applications using Ansible.
+ 
+\end_layout
+
+\begin_layout Itemize
+Built an open source JSON Web Token (JWT) based authentication service for
+ internal micro-services using Rust.
+ In the process, I also wrote some libraries to support this service including
+ libraries to handle JWT and Cross-origin resource sharing.
+ 
+\end_layout
+
+\begin_layout Itemize
+Occasional open source contribution to tools like Docker Compose and Yarn
+ package manager.
+ 
+\end_layout
 
 \end_inset
 
-, and several data pipeline projects for internal government use.
- Worked on backend code for microservices and built the continuous deployment
- pipeline for the projects.
+
 \end_layout
 
 \begin_layout Entry
@@ -447,7 +494,7 @@ target "https://www.businessgrants.gov.sg/"
 status open
 
 \begin_layout Plain Layout
-2014--2015
+2014–2015
 \end_layout
 
 \end_inset
@@ -548,7 +595,8 @@ United Kingdom
 \end_inset
 
 Worked on an iPad application and a service for converting Google Docs to
- LaTeX.
+ \SpecialChar LaTeX
+.
 \end_layout
 
 \begin_layout Section
@@ -641,7 +689,7 @@ DevOps tools
 
 \end_inset
 
-Ansible, Docker, Vagrant, Terraform, Kubernetes
+Ansible, Docker, Vagrant, Terraform, Nomad, Consul, Vault
 \end_layout
 
 \begin_layout Item
@@ -724,13 +772,6 @@ status open
 
 \end_layout
 
-\end_inset
-
-
-\end_layout
-
-\begin_layout Standard
-\begin_inset Newpage newpage
 \end_inset
 
 

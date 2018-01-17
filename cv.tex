@@ -1,7 +1,8 @@
-%% LyX 2.1.4 created this file.  For more info, see http://www.lyx.org/.
+%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
 \documentclass[12pt,a4paper,english]{moderncv}
 \usepackage[T1]{fontenc}
+\usepackage[latin9]{inputenc}
 \setcounter{secnumdepth}{0}
 \setlength{\parskip}{\medskipamount}
 \setlength{\parindent}{0pt}
@@ -21,8 +22,7 @@
 \moderncvstyle{casual}
 \moderncvcolor{red}
 \renewcommand{\pdfpagemode}{UseNone}
-\firstname{Yong Wen}
-\familyname{Chua}
+\name{Yong Wen}{Chua}
 \title{}
 \email{me@yongwen.xyz}
 \social[twitter]{lawlietSG}
@@ -45,92 +45,73 @@
 
 \begin{document}
 
-
-
-
-
-
-
 \makecvtitle{}{}
-
 
 \section{Education}
 
-
-\cventry{2010--2014}{MEng Electronics and Information Engineering}{Imperial College London}{London}{United Kingdom}{First Class Honours}
-
+\cventry{2010\textendash 2014}{MEng Electronics and Information Engineering}{Imperial College London}{London}{United Kingdom}{First Class Honours}
 
 \section{Experience}
 
-
-\cventry{2014--\\
+\cventry{2014\textendash \\
 current}{Open Source Contributions}{}{}{}{Please see below.}
 
+\cventry{2015\textendash \\
+current}{Government Technology Agency}{Software Engineer}{}{Singapore}{%
+\begin{minipage}[t]{1\columnwidth}%
+\begin{itemize}
+\item Dockerized applications and set up and Docker based continuous integration
+and delivery pipeline using TeamCity for several applications, including
+the Business Grant Portal. This allowed easy replication of similar
+test and production environment for developers to work with. 
+\item Fully automate the deployment of applications using Ansible. 
+\item Built an open source JSON Web Token (JWT) based authentication service
+for internal micro-services using Rust. In the process, I also wrote
+some libraries to support this service including libraries to handle
+JWT and Cross-origin resource sharing. 
+\item Occasional open source contribution to tools like Docker Compose and
+Yarn package manager. 
+\end{itemize}
+%
+\end{minipage}}
 
-\cventry{2015--\\
-current}{Government Technology Agency}{Software Engineer}{}{Singapore}{Worked on the \href{https://www.businessgrants.gov.sg/}{Business Grants Portal},
-and several data pipeline projects for internal government use. Worked
-on backend code for microservices and built the continuous deployment
-pipeline for the projects.}
-
-
-\cventry{2014--2015}{LShift. Ltd}{Senior Developer}{London}{United Kingdom}{Worked on several .NET projects and a Java project, including
+\cventry{2014\textendash 2015}{LShift. Ltd}{Senior Developer}{London}{United Kingdom}{Worked on several .NET projects and a Java project, including
 a MVC web service}
-
 
 \cventry{2013}{LShift. Ltd}{Summer Internship}{London}{United Kingdom}{Worked on an iPad application and a service for converting Google
 Docs to \LaTeX{}.}
 
-
 \section{Languages}
-
 
 \cvitemwithcomment{English}{Native}{}
 
-
 \cvitemwithcomment{Chinese}{Native}{}
-
 
 \section{Computer skills}
 
-
 \cvitem{OS}{Linux, Windows}
-
 
 \cvitem{Programming}{Rust, C\#, C++, Python, Ruby, JavaScript, Shell}
 
-
-\cvitem{DevOps tools}{Ansible, Docker, Vagrant, Terraform, Kubernetes}
-
+\cvitem{DevOps tools}{Ansible, Docker, Vagrant, Terraform, Nomad, Consul, Vault}
 
 \cvitem{Methodology}{Agile, Scrum, DSDM, Continuous Integration/Deployment}
 
-\newpage{}
-
-
 \section{Open Source Projects}
-
 
 \cvitem{}{This is a partial list of open source projects.}
 
-
 \cvitem{Rust}{\href{https://github.com/lawliet89/biscuit}{JOSE library (https://git.io/v7dIz)}}
-
 
 \cvitem{Rust}{\href{https://github.com/lawliet89/pr_demon}{Continuous Integration tool for Bitbucket (https://git.io/v7dI2)}}
 
-
 \cvitem{Rust}{\href{https://github.com/lawliet89/fusionner}{Automated tool for test merging topic branches for Git (https://git.io/v7dIV)}}
-
 
 \cvitem{Rust}{ \href{https://github.com/lawliet89/rocket_cors}{CORS Library for the Rocket.rs framework (https://git.io/v7dIw)}}
 
-
 \cvitem{C++}{\href{https://github.com/lawliet89/LLVM-Obfuscator}{LLVM Obfuscator: Implementation of Obfuscation techniques with LLVM compiler (https://git.io/v7dIr)}}
 
-
 \cvitem{Ruby}{\href{https://github.com/GovTechSG/libcorppass}{Library for Rack applications to intergrate with CorpPass, a SAML based identity provider (https://git.io/v7dIo)}}
-
 
 \cvitem{Ansible}{ \href{https://github.com/lawliet89/docker-compose-ansible}{Ansible role for deploying Docker applications with Docker Compose (https://git.io/v7dIK)}}
 \end{document}
