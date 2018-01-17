@@ -484,6 +484,11 @@ Occasional open source contribution to tools like Docker Compose and Yarn
  
 \end_layout
 
+\begin_layout Itemize
+Deployed a Nomad and Consul cluster on AWS in a fully automated manner using
+ Terraform.
+\end_layout
+
 \end_inset
 
 
