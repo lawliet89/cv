@@ -1,4 +1,4 @@
-%% LyX 2.2.3 created this file.  For more info, see http://www.lyx.org/.
+%% LyX 2.3.2 created this file.  For more info, see http://www.lyx.org/.
 %% Do not edit unless you really know what you are doing.
 \documentclass[12pt,a4paper,english]{moderncv}
 \usepackage[T1]{fontenc}
@@ -19,17 +19,36 @@
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% LyX specific LaTeX commands.
 
+
 \moderncvstyle{casual}
+
+
 \moderncvcolor{red}
+
+
 \renewcommand{\pdfpagemode}{UseNone}
+
+
 \name{Yong Wen}{Chua}
+
+
 \title{}
+
+
+
 \email{me@yongwen.xyz}
+
+
+
 \social[twitter]{lawlietSG}
+
+
 \social[linkedin]{yong-wen}
+
+
 \social[github]{lawliet89}
-\pdfpageheight\paperheight
-\pdfpagewidth\paperwidth
+
+\special{papersize=\the\paperwidth,\the\paperheight}
 
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%% User specified LaTeX commands.
@@ -56,8 +75,21 @@
 \cventry{2014\textendash \\
 current}{Open Source Contributions}{}{}{}{Please see below.}
 
+\cventry{2019\textendash \\
+current}{BasisAI}{Software and DevOps Engineer}{}{Singapore}{%
+\begin{minipage}[t]{1\columnwidth}%
+\begin{itemize}
+\item Design, implement, and manage the infrastructure for our product and
+customer using a plethora of open source tools such as Terraform,
+Consul, Vault, and Terraform
+\item Fully automate the monitoring of the health of the infrastructure
+with alerts when issues occur
+\end{itemize}
+%
+\end{minipage}}
+
 \cventry{2015\textendash \\
-current}{Government Technology Agency}{Software Engineer}{}{Singapore}{%
+2019}{Government Technology Agency}{Software Engineer}{}{Singapore}{%
 \begin{minipage}[t]{1\columnwidth}%
 \begin{itemize}
 \item Dockerized applications and set up and Docker based continuous integration
@@ -81,7 +113,7 @@ using Terraform.
 a MVC web service}
 
 \cventry{2013}{LShift. Ltd}{Summer Internship}{London}{United Kingdom}{Worked on an iPad application and a service for converting Google
-Docs to \LaTeX{}.}
+Docs to \LaTeX .}
 
 \section{Languages}
 
@@ -93,7 +125,7 @@ Docs to \LaTeX{}.}
 
 \cvitem{OS}{Linux, Windows}
 
-\cvitem{Programming}{Rust, C\#, C++, Python, Ruby, JavaScript, Shell}
+\cvitem{Programming}{Rust, Go, C\#, C++, Python, Ruby, JavaScript, Shell}
 
 \cvitem{DevOps tools}{Ansible, Docker, Vagrant, Terraform, Nomad, Consul, Vault}
 
@@ -110,6 +142,8 @@ Docs to \LaTeX{}.}
 \cvitem{Rust}{\href{https://github.com/lawliet89/fusionner}{Automated tool for test merging topic branches for Git (https://git.io/v7dIV)}}
 
 \cvitem{Rust}{ \href{https://github.com/lawliet89/rocket_cors}{CORS Library for the Rocket.rs framework (https://git.io/v7dIw)}}
+
+\cvitem{Go}{ \href{https://github.com/terraform-providers/terraform-provider-vault}{Contributor to Terraform Vault Provider (https://git.io/Jeayk)}}
 
 \cvitem{C++}{\href{https://github.com/lawliet89/LLVM-Obfuscator}{LLVM Obfuscator: Implementation of Obfuscation techniques with LLVM compiler (https://git.io/v7dIr)}}
 
