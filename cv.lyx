@@ -428,7 +428,7 @@ BasisAI
 status open
 
 \begin_layout Plain Layout
-Software and DevOps Engineer
+Principal DevOps Engineer
 \end_layout
 
 \end_inset
@@ -463,14 +463,28 @@ backgroundcolor "none"
 status open
 
 \begin_layout Itemize
-Design, implement, and manage the infrastructure for our product and customer
- using a plethora of open source tools such as Terraform, Consul, Vault,
- and Terraform
+Led the design and implementation of a secure cloud native SaaS product
+ running on Google Cloud Platform and Amazon Web Services
 \end_layout
 
 \begin_layout Itemize
-Fully automate the monitoring of the health of the infrastructure with alerts
- when issues occur
+Manage several Kubernetes Clusters running our product and our customers'
+ workload
+\end_layout
+
+\begin_layout Itemize
+Fully codified and automated infrastructure provisioning using Infrastructure
+ as Code tools such as Terraform and Ansible
+\end_layout
+
+\begin_layout Itemize
+Used state of the art cloud-native software and technology, such as Consul,
+ Vault, and Prometheus.
+\end_layout
+
+\begin_layout Itemize
+Implemented and designed an automated infrastructure health monitoring system
+ with alerts
 \end_layout
 
 \end_inset
@@ -779,7 +793,8 @@ DevOps tools
 
 \end_inset
 
-Ansible, Docker, Vagrant, Terraform, Nomad, Consul, Vault
+Ansible, Docker, Vagrant, Terraform, Nomad, Consul, Vault, Kubernetes, Helm,
+ Prometheus, Grafana
 \end_layout
 
 \begin_layout Item
@@ -793,6 +808,19 @@ Methodology
 \end_inset
 
 Agile, Scrum, DSDM, Continuous Integration/Deployment
+\end_layout
+
+\begin_layout Item
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
+Cloud Service Provider
+\end_layout
+
+\end_inset
+
+Amazon Web Services, Google Cloud Platform
 \begin_inset Note Note
 status collapsed
 
@@ -873,6 +901,16 @@ Open Source Projects
 
 \begin_layout Item
 This is a partial list of open source projects.
+ See my 
+\begin_inset CommandInset href
+LatexCommand href
+name "Github Profile"
+target "https://github.com/lawliet89/"
+literal "false"
+
+\end_inset
+
+ for the full list.
 \end_layout
 
 \begin_layout Item
