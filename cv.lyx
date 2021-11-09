@@ -374,7 +374,7 @@ Experience
 
 \begin_layout Entry
 \begin_inset Argument 1
-status open
+status collapsed
 
 \begin_layout Plain Layout
 2014–
@@ -404,11 +404,83 @@ Please see below.
 status open
 
 \begin_layout Plain Layout
+2021–
+\begin_inset Newline newline
+\end_inset
+
+Current
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 2
+status open
+
+\begin_layout Plain Layout
+Aicadium
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 3
+status open
+
+\begin_layout Plain Layout
+Senior Cloud Infrastructure Engineer
+\end_layout
+
+\end_inset
+
+
+\begin_inset Argument 5
+status open
+
+\begin_layout Plain Layout
+Singapore
+\end_layout
+
+\end_inset
+
+
+\begin_inset Box Frameless
+position "t"
+hor_pos "c"
+has_inner_box 1
+inner_pos "t"
+use_parbox 0
+use_makebox 0
+width "100col%"
+special "none"
+height "1in"
+height_special "totalheight"
+thickness "0.4pt"
+separation "3pt"
+shadowsize "4pt"
+framecolor "black"
+backgroundcolor "none"
+status open
+
+\begin_layout Itemize
+Basis AI was acquired by Aicadium in August 2021
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Entry
+\begin_inset Argument 1
+status open
+
+\begin_layout Plain Layout
 2019–
 \begin_inset Newline newline
 \end_inset
 
-current
+2021
 \end_layout
 
 \end_inset
@@ -460,7 +532,7 @@ separation "3pt"
 shadowsize "4pt"
 framecolor "black"
 backgroundcolor "none"
-status open
+status collapsed
 
 \begin_layout Itemize
 Led the design and implementation of a secure cloud native SaaS product
